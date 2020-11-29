@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Basic Page Needs
@@ -13,14 +13,14 @@
     
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="{{url('public')}}/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{url('public')}}/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{url('public')}}/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{url('public')}}/img/apple-touch-icon-114x114.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="{{url('public')}}/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="{{url('public')}}/fonts/font-awesome/css/font-awesome.css">
 
     <!-- Nivo Lightbox
     ================================================== -->
@@ -41,7 +41,7 @@
     ================================================== -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-    <script type="text/javascript" src="{{url('public')}}js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="{{url('public')}}/js/modernizr.custom.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,42 +54,10 @@
 
     <!-- Main Navigation 
     ================================================== -->
-   @include('template.section.menu')
+    @include('template.section.menu')
 
-    <!-- Home Section
-    ================================================== -->
-    @include('template.section.home')
-
-    <!-- Service Section
-    ================================================== -->
-    @include('template.section.service')
-
-    <!-- About Us Section
-    ================================================== -->
-    @include('template.section.about')
-
-    <!-- Team Section
-    ================================================== -->
-    @include('template.section.team')
-
-    <!-- Why Us/Features Section
-    ================================================== -->
-    @include('template.section.features')
-
-    <!-- Process Section
-    ================================================== -->
-   @include('template.section.proses')
-
-    <!--  Pricing Section
-    ================================================== -->
+    @yield('content')
     
-   @include('template.section.pricing')
-    <!--  Blog Section
-    ================================================== -->
-   @include('template.section.blog')
-    <!-- Contact Section
-    ================================================== -->
-    @include('template.section.contact')
     <!-- Footer 
     ================================================== -->
     @include('template.section.footer')

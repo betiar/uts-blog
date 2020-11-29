@@ -1,4 +1,4 @@
-div id="tf-home">
+<div id="tf-home">
         <div class="overlay"> <!-- Overlay Color -->
             <div class="container"> <!-- container -->
                 <div class="content-heading text-center"> <!-- Input Your Home Content Here -->

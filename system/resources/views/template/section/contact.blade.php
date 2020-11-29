@@ -1,13 +1,13 @@
 <div id="tf-contact">
 
         <div class="container"> <!-- container -->
-            <div class="section-header">
+            <div class="section-header text-center">
                 <h2>Feel Free to <span class="highlight"><strong>Contact Us</strong></span></h2>
                 <h5><em>We design and build functional and beautiful websites</em></h5>
                 <div class="fancy"><span><img src="{{url('public')}}/_src/ethanol/html/img/favicon.ico" alt="..."></span></div>
             </div>
         </div><!-- end container -->
-
+<hr>
         <div id="map"></div>  <!-- google map -->
 
         <div class="container"><!-- container -->

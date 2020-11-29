@@ -15,11 +15,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#tf-home" class="scroll">Home</a></li>
-                <li><a href="#tf-services" class="scroll">Services</a></li>
                 <li><a href="#tf-about" class="scroll">About</a></li>
-                <li><a href="#tf-works" class="scroll">Works</a></li>
-                <li><a href="#tf-process" class="scroll">Process</a></li>
-                <li><a href="#tf-pricing" class="scroll">Pricing</a></li>
                 <li><a href="#tf-blog" class="scroll">Blog</a></li>
                 <li><a href="#tf-contact" class="scroll">Contact</a></li>
               </ul>

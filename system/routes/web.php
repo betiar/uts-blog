@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,14 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('template', [HomeController::class, 'showTemplate']);
+Route::get('beranda', [HomeController::class, 'showBeranda']);
 Route::get('blog', [HomeController::class, 'showBlog']);
+Route::get('artikel', [HomeController::class, 'showArtikel']);
+Route::get('dashboard', [HomeController::class, 'showDashboard']);
+Route::get('login', [HomeController::class, 'showLogin']);
+
+Route::get('User', [UserController::class, 'index']);
+route::get('user/create', [UserController::class, 'create']);
+
 
 	

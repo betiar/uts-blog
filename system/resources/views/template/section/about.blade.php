@@ -1,12 +1,12 @@
 <div id="tf-about">
         <div class="container"> <!-- container -->
-            <div class="section-header">
+            <div class="section-header text-center">
                 <h2>What To Know Us <span class="highlight"><strong>Better</strong></span></h2>
                 <h5><em>We design and build functional and beautiful websites</em></h5>
                 <div class="fancy"><span><img src="{{url('public')}}/_src/ethanol/html/img/favicon.ico" alt="..."></span></div>
             </div>
         </div><!-- end container -->
-
+ <hr>
         <div class="gray-bg"> <!-- fullwidth gray background -->
 
             <div class="container"><!-- container -->
@@ -16,7 +16,7 @@
                         <div class="about-left-content text-center">
                             <div class="img-wrap"> <!-- profile image wrap -->
                                 <div class="profile-img"> <!-- company profile details -->
-                                    <img src="http://placehold.it/800x650" class="img-responsive" alt="Image"> <!-- change link to your image for your company profile -->
+                                    <img src="{{url('public')}}/_src/ethanol/html/img/db1888296ae298e43357dc67b1f824d9.jpg" class="img-responsive" alt="Image" width="800px" height="500px"> <!-- change link to your image for your company profile -->
                                     <ul class="list-inline social"> 
                                         <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
                                         <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
